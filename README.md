@@ -10,4 +10,6 @@ The projects shows how can we use css code with react component to not only give
 
 And of course **react-transition-group** it is not the only one dependency that you can use for this. There is another ones you could use and probably have the same results or feel more controfable with that.
 
-### Keep Learning. Keep practice and have patience xD
+And if want to know more about this dependency you can check here [repo](https://github.com/reactjs/react-transition-group) or here [Doc Page](https://reactcommunity.org/react-transition-group/)
+
+### Keep Learning. Keep practice and have patience!.
