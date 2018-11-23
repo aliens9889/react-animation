@@ -3,6 +3,7 @@ import Transition from 'react-transition-group/Transition';
 
 import Backdrop from './components/Backdrop/Backdrop';
 import Modal from './components/Modal/Modal';
+import List from './components/List/List';
 import './App.css';
 
 class App extends Component {
@@ -60,6 +61,8 @@ class App extends Component {
         ) : null }
         <br/>
         <button onClick={this.showModal} className="Button" >Open Modal</button>
+        <h3>List Animation</h3>
+        <List />
       </div>
     );
   }
