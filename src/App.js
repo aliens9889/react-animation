@@ -21,9 +21,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <button onClick={this.showModal}>Open Modal</button>
-        { this.state.modalIsOpen ? <Modal close={this.closeModal} /> : null }
-        <Backdrop show={this.state.modalIsOpen} />
+        <Modal show={this.state.modalIsOpen} closed={this.closeModal} />
+        { this.state.modalIsOpen ? (
+          <Backdrop show />
+        ) : null }
+        <button onClick={this.showModal} className="Button" >Open Modal</button>
       </div>
     );
   }
